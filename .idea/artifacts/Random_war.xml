@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Random:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Random</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Random-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Random:war exploded" />
+    </root>
+  </artifact>
+</component>
